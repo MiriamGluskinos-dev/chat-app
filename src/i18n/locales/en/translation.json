@@ -1,0 +1,17 @@
+{
+  "welcomeTitle": "Welcome to the smart customs chatbot",
+    "howToUse": "How to use?",
+    "instruction1": "If you did not receive a satisfactory answer, it is recommended to phrase the question differently",
+    "instruction2":"Formulate customs questions as precisely as possible",
+    "letsStart": "Let's start",
+    "hey": "Hey!",
+    "introduction1": "You have reached the customs smart bot.",
+    "introduction2": "You can ask me any questions you want about customs and I will try to give you the most accurate answer for you.",
+    "introduction3": "Not sure how to start or what to ask? Here are some examples",
+    "question1": "Are animals allowed to be brought into the country?",
+    "question2": "How much tax do I have to pay for ordering a phone from abroad?",
+    "question3": "My package is stuck at customs, what do I need to do to release it?",
+    "question4": "How many packs of cigarettes am I allowed to buy at duty free?",
+    "writeTheQuestionHere": "You can write the question here"
+
+}

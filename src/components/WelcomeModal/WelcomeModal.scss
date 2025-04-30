@@ -1,0 +1,96 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal {
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    direction: rtl;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.imageContainer {
+    margin-bottom: 15px;
+
+    .image {
+        width: 30%;
+        object-fit: contain;
+    }
+}
+
+.title {
+    font-size: var(--igds-light-ref-font-size-xl);
+    margin-bottom: 10px;
+    color: var(--igds-light-base-color-text-link-primary-default);
+    ;
+}
+
+.subtitle {
+    font-size: var(--igds-light-ref-font-size-l);
+    margin-bottom: 2px;
+    margin-top: 5px;
+    font-weight: var(--igds-light-ref-font-weight-medium);
+}
+
+.line {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    width: 131px;
+    height: 2px;
+    background: var(--igds-light-base-color-background-brand-default);
+}
+
+.instruction {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: start;
+    width: 90%;
+    margin-right: 10%;
+
+    .editIcon, .messageIcon{
+        color: var(--igds-light-base-color-background-brand-default);
+        align-self: center;
+    }
+    .text {
+        font-size: 14px;
+        margin: 10px;
+        color: #666;
+        line-height: 1.6;
+    }
+
+}
+
+.startButton {
+    width: 100%;
+    align-self: center;
+}

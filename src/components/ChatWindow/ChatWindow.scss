@@ -1,0 +1,14 @@
+.chatWindow {
+  width: 80%;
+  position: relative;
+
+  .chatMessages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+}
