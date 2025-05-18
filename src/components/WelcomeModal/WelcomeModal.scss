@@ -22,6 +22,10 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 480px) {
+        width: 73%;
+    }
 }
 
 .closeButton {
@@ -37,7 +41,12 @@
 }
 
 .imageContainer {
+    margin-top: 10px;
     margin-bottom: 15px;
+
+    @media (max-width: 480px) {
+        margin-bottom: 0;
+    }
 
     .image {
         width: 30%;
@@ -49,7 +58,6 @@
     font-size: var(--igds-light-ref-font-size-xl);
     margin-bottom: 10px;
     color: var(--igds-light-base-color-text-link-primary-default);
-    ;
 }
 
 .subtitle {
@@ -76,6 +84,12 @@
     justify-content: start;
     width: 90%;
     margin-right: 10%;
+
+    @media (max-width: 480px) {
+        margin-right: 0;
+        width: 100%;
+        text-align: right;
+    }
 
     .editIcon, .messageIcon{
         color: var(--igds-light-base-color-background-brand-default);

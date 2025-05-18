@@ -2,6 +2,10 @@
   width: 80%;
   position: relative;
 
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+
   .chatMessages {
     flex: 1;
     overflow-y: auto;

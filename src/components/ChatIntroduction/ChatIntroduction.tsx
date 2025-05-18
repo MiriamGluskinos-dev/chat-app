@@ -18,16 +18,15 @@ const ChatIntroduction = ({ onSend }: { onSend: (message: string) => void }) => 
                         <p>{t("introduction1")}</p>
                         <p>{t("introduction2")}</p>
                         <strong>{t("introduction3")}</strong>
-                        <div className="chat-examples">
-                            <ChatQuestionExample text={t("question1")} onSend={sendQuestion} />
-                            <ChatQuestionExample text={t("question2")} onSend={sendQuestion} />
-                            <ChatQuestionExample text={t("question3")} onSend={sendQuestion} />
-                            <ChatQuestionExample text={t("question4")} onSend={sendQuestion} />
-                        </div>
+
                     </div>
-
                 </div>
-
+                <div className="chat-examples">
+                    <ChatQuestionExample text={t("question1")} onSend={sendQuestion} />
+                    <ChatQuestionExample text={t("question2")} onSend={sendQuestion} />
+                    <ChatQuestionExample text={t("question3")} className="hide-on-mobile" onSend={sendQuestion} />
+                    <ChatQuestionExample text={t("question4")} onSend={sendQuestion} />
+                </div>
             </div>
         </div>
     );
