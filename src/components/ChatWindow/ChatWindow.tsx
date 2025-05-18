@@ -13,11 +13,6 @@ const ChatWindow = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
 
-  // const handleSend = (newMessage: string) => {
-  //   if (!newMessage.trim()) return;
-  //   setMessages((prev) => [...prev, newMessage]);
-  // };
-
   const handleSend = (newMessage: string) => {
     if (!newMessage.trim()) return;
 
@@ -42,7 +37,7 @@ const ChatWindow = () => {
           ))}
         </div>
       )}
-      <ChatInput onSend={handleSend} />
+      <ChatInput onSend={handleSend} input={input}/>
     </div>
   );
 };

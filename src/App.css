@@ -5,6 +5,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  height: 100%;
+  align-self: start;
 }
 
 .logo {
