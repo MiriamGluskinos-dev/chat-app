@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-    <WelcomeModal></WelcomeModal>
-    <ChatWindow></ChatWindow>
+      <WelcomeModal></WelcomeModal>
+      <ChatWindow></ChatWindow>
     </>
-    
+
   )
 }
 
